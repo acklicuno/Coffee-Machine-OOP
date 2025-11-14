@@ -1,0 +1,23 @@
+Python OOP Coffee Maker
+
+# To-Do
+
+- Ask the user(while the machine is not determined to be off) “What would you like? (get_items()):”
+- If the answer is "off", break the loop
+- If the answer is "report", call the report method
+
+- If the answer is a regular option continue below
+
+- Find the option with the find_drink(order_name)
+- Compare the option chosen attributes ingredients with the total machine ingredients left using is_resource_sufficient()
+- If the amount in the machine is not enough, tell prompt to user that its not enough and ask for a new drink. Or ask if they would like to turn off
+- If the amount in the machine is adequate move to next step
+
+- Print cost of drink
+- Prompt the user to enter coins: quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01
+- User make_payment method
+- If True move on and add that amount using. If false, refund and ask for an adequate amount
+	- If the amount entered > the amount needed, offer the difference back rounded to 2 decimal
+
+- Make the order that they option was, using make_order
+- Say,"Here is your (choice). Enjoy!
